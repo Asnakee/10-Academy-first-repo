@@ -51,7 +51,6 @@ class Clean_Tweets:
         remove non english tweets from lang
         """
         
-        df = new_str <- grep(df_str, pattern = "<*>", value= TRUE , invert = TRUE )
-new_str[new_str != ""]
+          df = df.query("lang == 'en' ")
         
         return df
